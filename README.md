@@ -70,7 +70,7 @@ The object of the game is to set all the elements to 0.
 ```
 
 ## Preparation
-```
+```shell
 # This creates the project inside the kata-lights-out folder using the Reagent lein template.
 $ lein new reagent kata-lights-out 
 
