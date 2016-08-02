@@ -71,8 +71,12 @@ The object of the game is to set all the elements to 0.
 
 ## Preparation
 ```
-$ lein new reagent kata-lights-out <- this creates the project inside the kata-lights-out folder using the Reagent lein template. 
+# This creates the project inside the kata-lights-out folder using the Reagent lein template.
+$ lein new reagent kata-lights-out 
+
 $ cd kata-lights-out
-$ lein figwheel <- this will start Figwheel (wait while it downloads libraries and starts a server)
+
+# This will start Figwheel (wait while it downloads libraries and starts a server)
+$ lein figwheel
+# Once the previous command finishes go to http://localhost:3449
 ```
-Once the previous command finishes go to http://localhost:3449
